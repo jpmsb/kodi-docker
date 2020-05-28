@@ -1,8 +1,9 @@
 #!/bin/bash
 
-sudo mv kodi /usr/local/bin
+sudo cp kodi /usr/local/bin
 sudo chmod 755 /usr/local/bin/kodi
 
 sudo cp kodi.desktop /usr/share/applications/kodi.desktop
+sudo chmod 755 /usr/share/applications/kodi.desktop
 
 sudo cp tv.kodi.Kodi.png /usr/share/images/kodi.png
